@@ -809,7 +809,9 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
         display: block;
+    }
 
-
+    .contact-form .form-item .form-group .btn {
+        margin-left: 45px;
     }
 }
