@@ -798,3 +798,18 @@ h3.my-profession {
         max-width: 100%;
     }
 }
+@media (min-width: 345px) {
+    .rowContact {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: -3px;
+    }
+
+    .about .about-content .personal-info .info-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: block;
+
+
+    }
+}
