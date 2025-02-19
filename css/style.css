@@ -639,6 +639,7 @@ h3.my-profession {
     margin-bottom: 30px;
 }
 
+
 .portfolio .portfolio-item-inner {
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
@@ -646,10 +647,25 @@ h3.my-profession {
     cursor: pointer;
 }
 
+.portfolio .portfolio-item-inner:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
 .portfolio .portfolio-item-inner .portfolio-img img {
+    height: 300px;
     width: 100%;
     display: block;
 }
+
+.portfolio .portfolio-item span {
+    color: var(--text-black-700);
+    margin-left: 70px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
 
 /* contact */
 .contact-title {
@@ -749,6 +765,8 @@ h3.my-profession {
     padding: 0 50px;
 }
 
+
+
 @media (max-width:1199px) {
     .aside {
         left: -270px;
@@ -798,7 +816,8 @@ h3.my-profession {
         max-width: 100%;
     }
 }
-@media (min-width: 345px) {
+
+@media (max-width: 400px) {
     .rowContact {
         flex: 0 0 100%;
         max-width: 100%;
@@ -811,5 +830,6 @@ h3.my-profession {
         display: block;
     }
 
-    
+
+
 }
