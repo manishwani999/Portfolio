@@ -657,7 +657,8 @@ h3.my-profession {
 .portfolio .portfolio-item-inner .portfolio-img img {
     height: 300px;
     width: 100%;
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio .portfolio-item span {
@@ -834,5 +835,6 @@ h3.my-profession {
 
 
 }
+
 
 
