@@ -114,7 +114,6 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
     margin-left: -15px;
     margin-right: -15px;
@@ -837,6 +836,7 @@ h3.my-profession {
 
 
 }
+
 
 
 
