@@ -770,6 +770,31 @@ h3.my-profession {
 
 
 
+.btn-proj {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 12px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background-color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+
+.btn-proj:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.proj-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 @media (max-width:1199px) {
     .aside {
         left: -270px;
@@ -836,11 +861,3 @@ h3.my-profession {
 
 
 }
-
-
-
-
-
-
-
-
